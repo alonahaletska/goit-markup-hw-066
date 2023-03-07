@@ -10,7 +10,7 @@ html {
 
 :root {
   /*Основной шрифт*/
-  --main-font: "Roboto" sans-serif;
+  --main-font: 'Roboto' sans-serif;
   /*Цвет текста*/
   --black-txt-color: #212121;
   --tblack-txt-color: #000000;
@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: 'Roboto' sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -108,7 +108,7 @@ p {
 }
 
 .nav-link {
-  font-family: "Roboto";
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -160,7 +160,7 @@ p {
 .header-contact {
   display: flex;
   align-items: center;
-  font-family: "Roboto";
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -228,7 +228,7 @@ p {
   padding: 8px 30px;
   max-width: 350px;
   min-width: 216px;
-  font-family: "Roboto";
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -379,6 +379,7 @@ p {
   height: 70px;
   align-items: center;
   justify-content: center;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -618,7 +619,7 @@ p {
   opacity: 0;
   width: 100%;
   bottom: 0;
-  font-family: 'Roboto';
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 18px;
   /* margin-top: 0; */
@@ -649,7 +650,7 @@ p {
   border-top: none;
 }
 .portfolio-title {
-  font-family: 'Roboto';
+  font-family: var(--main-font);
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -660,7 +661,7 @@ p {
 }
 
 .portfolio-text {
-  font-family: 'Roboto';
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -710,7 +711,7 @@ p {
 }
 
 .footer-adress {
-  font-family: "Roboto";
+  font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -727,7 +728,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-contact {
-  font-family: "Roboto";
+ font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -747,6 +748,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-title {
   margin-bottom: 20px;
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -787,3 +789,17 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 20px;
   fill: var(--white-txt-color);
 } 
+
+.footer-all{
+  display: flex;
+}
+
+.footer-subscription{
+  margin-right: 215px;
+}
+
+
+
+.subscription-group{
+  display: flex;
+}
